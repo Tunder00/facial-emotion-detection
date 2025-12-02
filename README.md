@@ -8,6 +8,8 @@
   > 2. after extracting the model you can see a .h5 extinsion file that is the saved model
   > 3. *model = load_model("D:/jupyter/facial_emotion_model_1.h5")* go to this line of the code and change the model path so that you can use your trained model
   > 4. you can also see my cnn training process which omly had 66% accuracy in detecting the emotions
-  > 5. accuracy is less because of images that used to train the model (images are taken from affectnet dataset from affectnet) **link to dataset:**
+  > 5. accuracy is less because of images that used to train the model (images are taken from affectnet dataset from affectnet) **link to dataset:** (https://www.kaggle.com/datasets/vfomenko/young-affectnet-hq) or (https://www.kaggle.com/datasets/msambare/fer2013) or (https://www.kaggle.com/datasets/shuvoalok/ck-dataset) **note:** these datasets may change overtime during our training the images were somewhat less you can still choose between 3 if you need to train a new model of your preference
   > 6. the provided dataset link has a folder names as 0-7 and meaning is given below <br>
-   Angry (0), Disgust (1), Fear (2), Happy (3), Sad (4), Surprise (5), Neutral (6), Contempt (7) 
+   Angry (0), Disgust (1), Fear (2), Happy (3), Sad (4), Surprise (5), Neutral (6), Contempt (7)
+ 6. and also when yourun this main.ipynb file it will give the output in terminal abd start tracing a green box around your face and just detects a type of emotion in those 7 emotions.
+ 7. the modules needed to be installed before are opencv/ cv2, numpy, tensorflow. (if required the terminal will show you error saying module not found).
