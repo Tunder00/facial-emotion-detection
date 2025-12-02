@@ -10,11 +10,11 @@
   > 4. you can also see my cnn training process which omly had 66% accuracy in detecting the emotions
   > 5. accuracy is less because of images that used to train the model (images are taken from affectnet dataset from affectnet) **link to dataset:**
   > 6. the provided dataset link has a folder names as 0-7 and meaning is given below
-  > > -Angry---0
-  > > -Disgust---1
-  > > -Fear---2
-  > > -Happy---3
-  > > -Sad---4
-  > > -Surprise---5
-  > > -Neutral---6
-  > > -Contempt---7 
+  > > -Angry (0)
+  > > -Disgust (1)
+  > > -Fear (2)
+  > > -Happy (3)
+  > > -Sad (4)
+  > > -Surprise (5)
+  > > -Neutral (6)
+  > > -Contempt (7) 
